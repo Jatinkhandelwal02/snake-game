@@ -9,7 +9,7 @@ const gameBoard = document.getElementById('game-board')
 function main(currentTime){
     if(gameOver){
         if(confirm('you lost. Press ok to restart.')) {
-            window.location = './index.html'
+            window.location = 'index.html'
         }
         return
     }
